@@ -1,0 +1,50 @@
+package com.abc.techstore.entity;
+
+public class Cart {
+	private int cartId;
+	private int productIdList;
+	private String productName;
+	private double productPrice;
+	private int quantity;
+
+	public int getCartId() {
+		return cartId;
+	}
+
+	public void setCartId(int cartId) {
+		this.cartId = cartId;
+	}
+
+	public int getProductIdList() {
+		return productIdList;
+	}
+
+	public void setProductIdList(int productIdList) {
+		this.productIdList = productIdList;
+	}
+
+	public String getProductName() {
+		return productName;
+	}
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+	public double getProductPrice() {
+		return productPrice;
+	}
+
+	public void setProductPrice(double productPrice) {
+		this.productPrice = productPrice;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+}
